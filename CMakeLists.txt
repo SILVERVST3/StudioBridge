@@ -5,6 +5,7 @@ target_link_libraries(StudioBridge
         juce::juce_gui_basics
         juce::juce_gui_extra
         juce::juce_dsp
+)
 cmake_minimum_required(VERSION 3.22)
 project(StudioBridge VERSION 1.0.0)
 include(FetchContent)
